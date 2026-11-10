@@ -33,7 +33,7 @@ jobs:
       - name: Build project
         env:
           VITE_BASE: /learning-platform/
-       run: npm run build
+        run: npm run build
 
       # GitHub Pages 原生不支持 SPA rewrite，将 index.html 额外复制一份
       # 到 dist/assignment3/ 下，这样访问 /learning-platform/assignment3
